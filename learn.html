@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="learn.css">
+    <title>Atomic Habit Review</title>
+</head>
+<body>
+    <div>
+        <!-- Navbar -->
+        <div class="w3-top w3-text-white w3-black">
+            <div class="w3-bar  ">
+              <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+              <a href="./index.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+              <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+              <a href="#review" class="w3-bar-item w3-button w3-padding-large w3-hide-small">REVIEW</a>
+              <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+            </div>
+          </div>
+  
+          <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+          <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT</a>
+            <a href="#service" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SERVICE</a>
+            <a href="#review" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">REVIEW</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+          </div>
+    </div>
+ </div>
+        <section>
+            <div class = "content">
+                <h2>An Easy & Proven Way to Build Good Habits & Break Bad Ones</h2>
+
+                <div class="bookpic"><img src="./img/atm2.png" alt="Author Name"></div>
+                <span><!-- line here --></span>
+                <p class="work">How My Work Will Benefit You</p>
+                <p>
+I’m an advocate for useful ideas. The central question I explore through my work is, “How can we live better?” In other words, I want to find great ideas and explain them in a way that is easy to use and apply to daily life.<Br></br>
+
+My writing focuses on topics like…<Br></br>
+<ul class="listt">
+
+<li>How to start (and stick to) good habits</li>
+<li>How to make good choices and avoid bad ones</li>
+<li>How to accomplish more in less time</li>
+<li>How to create better systems and processes</li>
+<li>How to achieve meaningful results without overwhelming yourself</li>
+<li>Most of all, I write about how to put these ideas into practice in daily life.</li>
+
+                
+                            </div>
+        </section>
+      </div>
+      <div class="contact" id="join">
+        <h2 class="title1"> __ Join Us</h2>
+        <div class="contact-main">
+
+          <div class="contact-form">
+            <form >
+              <div class="name"> 
+                <input  class="input name-list" type="text" placeholder="First Name*">
+                <input  class="input name-list" type="text" placeholder="Last Name*">
+              </div>
+              <input id="email" class="input"  type="text" placeholder="Email*">
+              <textarea  id="email" class="input" minlength="100"  placeholder="Your Message*" required></textarea>
+             <button class="w3-btn w3-red w3-round">Send</button>
+            </form>
+            </div>
+  
+          
+          <div class="contact-image">
+            <img src="./img/james-clear-hh2.jpg" alt="Photo by Bruce Mars | Unsplash"/>
+  
+          </div>
+        </div>
+      </div>
+      <div class="contact-address" id="contact">
+        <h2 class="title"> __ GET IN TOUCH</h2>
+        <div class="contact-address-list">
+          <div class="contact-list">
+            <h4>location</h4>
+            <p>Ifim College HostelVinayaka Layout,</p>
+            <p> Electronic City,</p>
+            <p> Hulimangala, Karnataka 560100</p>
+          
+          </div>
+          <div class="contact-list">
+             <h4>Opening Hour</h4>
+             <p>Monday- Saturday: 8am -9:30pm</p>
+             <p>Sunday:8am- 9pm</p>
+       
+          </div>
+          <div class="contact-list">
+            <h4>Say hello</h4>
+            <p> <i class="fa fa-phone " style="margin-right: 8px;font-size: 20px;"></i> 9315990575</p>
+            <p><i class="fa fa-phone" style="margin-right: 8px;font-size: 20px;"></i>9557566266</p>
+            <p><i class="fa fa-envelope " style=" margin-right: 5px;font-size: 20px;"></i>rishyt12t@gmail.com.com</p>
+             
+        </div>
+
+        </div>
+
+      </div>
+
+    
+    </main>
+  
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else { 
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+</body>
+</html>
